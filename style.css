@@ -1,0 +1,146 @@
+/* CSS RULE */
+
+/* CSS RULES - Cascading Style Sheets*/
+/* External CSS Sheets (like this one) must be linked in HTML */
+/* In the <head> area, type:  <link rel="stylesheet" href="style.css"> */
+/* CSS Rules have a selector and declarations */
+/* Declarations are made of properties and values */
+
+/* Make a CSS rule that changes all paragraphs to green and sets the letter spacing to 2px. */
+
+/* Create a CSS rule that makes all h2 headings bold and italic. */
+/* h2 {
+  font-weight: bold;
+  font-style:italic;
+} */
+*/ p {
+  letter-spacing: 2px;
+  color: green;
+}
+/* Apply a CSS rule that gives a light yellow background color to all unordered lists and sets padding to 10px. */
+/* ul {
+  background: yellow;
+  padding: 10px;
+} */
+
+/* Make a CSS rule that changes the color of all hyperlinks to maroon, removes the underline, and sets the font weight to bold. */
+/* a {
+  color: maroon;
+  text-decoration: none;
+  font-weight: bold;
+} */
+
+/* Create a CSS rule that adds a solid 2px red border to all images and sets the width to 200px */
+/* img {
+  width: 200px;
+  border: 2px solid red;
+} */
+
+/* Apply a CSS rule that changes the list style type of ordered lists to Roman numerals and sets the margin to 20px top/bottom and 50px left/right. */
+/* ol {
+  list-style-type: upper-roman;
+  margin: 20px 50px;
+} */
+
+/* Create a CSS rule that increases the font size of all h1 headings to 24px and sets the text color to dark blue. */
+
+/* h1 {
+  font-size: 24px;
+  color: darkblue;
+} */
+
+/* Make a CSS rule that adds padding of 10px top/bottom and 20px left/right to all paragraphs and sets the background color to light gray. */
+/* p {
+  padding: 10px 20px;
+  background: lightgray;
+} */
+
+/* Apply a CSS rule that aligns all text to the center and sets the line height to 1.5. */
+/* body {
+  text-align: center;
+  line-height: 1.5;
+} */
+
+/* Create a CSS rule that changes the font family of all text to "Arial, sans-serif" and sets the font size to 16px. */
+/* h1,
+h2,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+} */
+
+/* Fixed-width Content */
+/* Body of your website is set to a fixed width (e.g. 500 pixels) */
+/* The body is then sent to the middle of the page (using margin: auto) */
+/* Usually a background color is chosen for <html> */
+
+html {
+  background-color: lightblue;
+}
+
+/* Create fixed-width body. Content is 600px and left/right padding of 75px. Top/bottom padding
+  of 30px
+*/
+
+body {
+  background-color: white;
+  width: 600px;
+  margin: 20px auto;
+  border: 3px solid lightblue;
+  padding: 30px 75px;
+  border-radius: 10px;
+}
+
+/* Classes and IDs */
+/* Classes: used to target multiple elements for styling */
+
+/* E.g. Make all headings centered and dark blue. */
+
+.first {
+  text-align: center;
+  color: darkblue;
+}
+
+.center {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+/* ID: IDs are just like classes, but are only used on a SINGLE element. */
+/* IDs are very important when we get to javascript */
+
+/* E.g. target the last paragraph and give it a border and padding. Center the text.
+  and give it a background colour.
+*/
+
+#last-para {
+  border: 2px solid purple;
+  padding: 20px 50px;
+  text-align: center;
+  margin-top: 50px;
+  background-color: violet;
+}
+
+/* Hover selector */
+/* Let's you create a CSS rule that only applies when hovering on an element */
+
+/* E.g. put a border around all paragraphs on hover */
+
+p:hover {
+  border: 1px solid green;
+}
+
+html {
+  background: url(img/1200px-Ronaldo_vs._FC_Schalke_04_\(16854146922\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.7);
+}
